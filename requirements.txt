@@ -1,15 +1,1 @@
-awscli==1.16.76
 cython==0.28.2
-gensim==3.7.3
-ipywebrtc==0.5.0
-jupyterlab==1.1.1
-Keras==2.2.4
-git+https://github.com/raghakot/keras-vis.git
-matplotlib==2.2.2
-numpy==1.14.3
-pandas==0.23.0
-Pillow==5.1.0
-pycodestyle==2.4.0
-pydot==1.4.1
-scikit-learn==0.20.2
-tensorflow==1.13.1
