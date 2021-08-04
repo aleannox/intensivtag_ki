@@ -1,0 +1,8 @@
+#!/bin/bash
+
+wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.de.300.bin.gz
+gunzip cc.de.300.bin.gz
+mv cc.de.300.bin sentiment_analysis/
+
+python sentiment_analysis/prepare_fasttext.py
+rm -rf sentiment_analysis/cc.de.300.bin
