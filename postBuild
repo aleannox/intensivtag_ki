@@ -4,9 +4,7 @@ set -ex
 
 pip install -r requirements_postbuild.txt
 
-wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.de.300.bin.gz
-gunzip cc.de.300.bin.gz
-mv cc.de.300.bin sentiment_analysis/
-
-python sentiment_analysis/prepare_fasttext.py
-rm -rf sentiment_analysis/cc.de.300.bin
+cd sentiment_analysis
+curl https://transfer.sh/1e3o7EO/cc.de.100.gensim_model.tar.gz -o cc.de.100.gensim_model.tar.gz
+tar -zxf cc.de.100.gensim_model.tar.gz
+rm -rf cc.de.100.gensim_model.tar.gz
