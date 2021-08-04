@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pip install -r requirements_postbuild.txt
+
 wget https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.de.300.bin.gz
 gunzip cc.de.300.bin.gz
 mv cc.de.300.bin sentiment_analysis/
