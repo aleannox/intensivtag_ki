@@ -7,7 +7,7 @@ git+https://github.com/raghakot/keras-vis.git
 matplotlib==2.2.2
 numpy==1.14.5
 pandas==0.23.2
-Pillow==5.1.0
+Pillow==5.2.0
 pycodestyle==2.4.0
 pydot==1.4.1
 scikit-learn==0.20.2
