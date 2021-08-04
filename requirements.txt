@@ -1,4 +1,5 @@
 awscli==1.16.76
+cython==0.28.2
 gensim==3.7.3
 ipywebrtc==0.5.0
 jupyterlab==1.1.1
