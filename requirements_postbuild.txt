@@ -1,9 +1,10 @@
 awscli==1.16.76
 gensim==3.7.3
+h5py==2.8.0
 ipywebrtc==0.5.0
 jupyterlab==1.1.1
 Keras==2.2.4
-git+https://github.com/raghakot/keras-vis.git@0.4.1
+git+https://github.com/raghakot/keras-vis.git@90ae5565951b5e6a90d706b8205c2c4dfc271505
 matplotlib==2.2.2
 numpy==1.14.5
 pandas==0.23.2
